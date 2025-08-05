@@ -1,0 +1,125 @@
+body {
+width: 1000px;
+font-family: "Josefin Sans";
+background-color: rgb(249, 249, 247);
+display: flex;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+min-height: 100%;
+white-space: hidden;
+}
+
+html {
+    height: 100%;
+    white-space: hidden;
+}
+h1 {
+    color: rgb(255, 148, 25);
+    text-shadow: 5px 5px white;
+}
+h1, h2, h3, h4, h5, h6, #footer {
+    font-family: "Audiowide";
+    letter-spacing: 3px;
+    
+}
+p, ul li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+} 
+
+#header {
+    background-image: url("https://pyxis.nymag.com/v1/imgs/7e2/b83/01a7d3094f5856a53f409a59b9d16e392e-22-transformers-fighting.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+#Search-box {
+ margin: 0 auto;
+ width: 50%;
+ align-content: center;
+ display: block;
+}
+
+#container {
+ height: auto;
+ width: 1000px;
+ margin: 0;
+ 
+}
+#main-content{
+    background-image: url("https://pyxis.nymag.com/v1/imgs/7e2/b83/01a7d3094f5856a53f409a59b9d16e392e-22-transformers-fighting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+img {
+    object-fit: cover;
+}
+
+
+#AboutUs, #Parts, #PriceMatch, #Guarantee {
+ font-weight: bolder;
+ color: orange;
+
+}
+
+ul {
+    margin: 0;
+    justify-items: center;
+    
+}
+ul a {
+    text-decoration: none;
+    color: black;
+}
+ul li:hover {
+    background-color: rgb(224, 132, 25);
+}
+ul li {
+    list-style-type: none;
+    background-color: rgb(245, 245, 220);
+    padding: 10px;
+    margin: 15px;
+    border: solid 2px;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 100%;
+    transition: background-color 1s,
+    color 1s ;
+    box-shadow: 5px 5px 10px;
+}
+#nav {
+ width: 15% ;
+ height: auto;
+ float: left;
+ margin-right: 25px;
+ margin-left: 0;
+ padding: o;
+} 
+
+
+#content {
+ width: 730px;
+ height: auto;
+ float: right;
+}
+
+
+
+
+#footer {
+ margin-top: 0;
+ clear: both;
+ color: rgb(249, 249, 249);
+ text-shadow:5px 5px black;
+ font-size: 30px;
+ padding: 10%;
+ background-image: url("https://thumbs.dreamstime.com/b/luxury-modern-car-black-background-copy-space-lot-grey-smoke-wheels-generative-ai-luxury-modern-car-305243431.jpg");
+ background-size: cover;
+ background-position: center;
+}
+}
